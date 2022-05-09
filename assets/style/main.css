@@ -1,0 +1,16 @@
+/* MAIN  */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 86%,
+    rgba(223, 223, 223, 1) 100%
+  );
+  padding-top: 6rem;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
