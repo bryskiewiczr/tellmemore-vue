@@ -31,8 +31,8 @@
     </div>
     <div class="mt-5">
       <p class="header-sub-text">
-        {{ $t('header.sub1') }} <i>{{ $t('header.carmake') }}</i
-        >{{ $t('header.disappointment') }}
+        {{ $t('header.sub1') }} {{ $t('header.carmake')
+        }}{{ $t('header.disappointment') }}
       </p>
     </div>
   </div>

@@ -1,8 +1,6 @@
 <template>
   <div class="pt-5 pb-lg-5">
-    <h3>
-      <h3>{{ $t('example.bad.header') }}</h3>
-    </h3>
+    <h3>{{ $t('example.bad.header') }}</h3>
     <b-row class="mt-3">
       <b-col cols="12" lg="5">
         <Dont-chat />
