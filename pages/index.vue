@@ -1,11 +1,15 @@
 <template>
-  <b-container>
-    <Header-main />
-    <Dont-main />
-    <Do-main />
-    <hr class="mt-5" />
-    <Footer-main />
-  </b-container>
+  <div>
+    <Color-mode-switcher />
+    <b-container>
+      <!-- <b-button id="switcher" @click="toggleDarkMode()">🌙</b-button> -->
+      <Header-main />
+      <Dont-main />
+      <Do-main />
+      <hr class="mt-5" />
+      <Footer-main />
+    </b-container>
+  </div>
 </template>
 
 <script>

@@ -2,15 +2,63 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
+/* dark mode support */
+:root {
+  --color: #243746;
+  --color-primary: #484848;
+  --color-secondary: #0e2233;
+  --color-link: #3254a8;
+  --bg: #f3f5f4;
+  --bg-secondary: #fff;
+  --border-color: #ddd;
+}
+
+.dark-mode {
+  --color: #ebf4f1;
+  --color-primary: #979797;
+  --color-secondary: #fdf9f3;
+  --color-link: #6685d1;
+  --bg: #071521;
+  --bg-secondary: #091a28;
+  --border-color: #0d2538;
+}
+
+.sepia-mode {
+  --color: #433422;
+  --color-primary: #504231;
+  --color-secondary: #433422;
+  --color-link: #3254a8;
+  --bg: #f1e7d0;
+  --bg-secondary: #eae0c9;
+  --border-color: #ded0bf;
+}
+
 body {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 86%,
-    rgba(223, 223, 223, 1) 100%
-  );
-  padding-top: 6rem;
   font-family: 'Open Sans', sans-serif;
-  /* font-family: Arial, Helvetica, sans-serif; */
+  padding-top: 6rem;
+
+  background-color: var(--bg);
+  color: var(--color);
+  transition: background-color 0.3s;
+}
+
+.chat-window {
+  background-color: var(--bg-secondary);
+  transition: background-color 0.3s;
+}
+
+.chat-time {
+  color: var(--color-primary);
+}
+
+.chat-link {
+  color: var(--color-link);
+}
+
+p {
+  color: var(--color-secondary);
+}
+
+ul li {
+  color: var(--color-secondary);
 }

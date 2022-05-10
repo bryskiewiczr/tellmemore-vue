@@ -21,12 +21,10 @@
 p {
   text-align: justify;
   font-size: 1rem;
-  color: #636363;
 }
 
 ul li {
   font-size: 1rem;
-  color: #636363;
   list-style: none;
 }
 </style>

@@ -91,7 +91,6 @@
 
 .chat-time {
   font-size: 0.8rem;
-  color: #808080;
 }
 
 .chat-msg {
@@ -99,7 +98,6 @@
 }
 
 .chat-link {
-  color: #1e6ed6;
   text-decoration: underline;
   cursor: pointer;
 }
