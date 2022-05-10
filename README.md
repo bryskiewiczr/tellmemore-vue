@@ -1,68 +1,54 @@
-# tellmemore
+# Tell Me More
 
-## Build Setup
+Please tell me more details about the job!<br>
+https://tellmemore.today
 
-```bash
-# install dependencies
-$ yarn install
+## Origins
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+Hello,
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+this website was created as a weekend project caused by my frustration towards LinkedIn recruiters who failed to provide me with important details about opportunities they were offering me, even after lenghty conversations.
 
-# generate static project
-$ yarn generate
-```
+While it may seem that I am venting my frustration on the entirety of LinkedIn recruiter population, this is certainly not the case. Majority of them are very helpful and well-acquainted with the offers they are promoting. But then there's that small % of LinkedIn recruiter/headhunter population... :)
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+# Development
 
-## Special Directories
+This project is a [NuxtJS](https://nuxtjs.org/) site deployed to production environment with [Vercel](https://vercel.com/).
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+I am not a web developer by trade, so I picked whatever solution was easiest for me.
 
-### `assets`
+## Getting started
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+It's a JavaScript project, so you'll need [Node](https://nodejs.org/en/). I've had some trouble running the newest version of Node.js, so you might need to use nvm (node version manager) and run `nvm use --lts` to use the lts version of node [16.15.0 [npm v8.5.5]].
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+    # clone the repository, etc.
+    git clone https://github.com/bryskiewiczr/tellmemore-vue.git
 
-### `components`
+    # dependencies
+    yarn install        # install the dependencies (@nuxtjs/i18n, bootstrap, bootstrap-vue,
+                                                    typed.js, vue-typed-js, vercel)
+    # development
+    yarn dev            # starts the development liveserver
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+    # production
+    yarn build          # builds the package
+    yarn generate       # generates the static page in ./dist
+    yarn start          # serve the page
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+When deploying on Vercel, it had issues properly generating the static page, so I had to change the build command in Vercel project settings to `nuxt build && nuxt generate` to make it work properly.
 
-### `layouts`
+# Translations
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+Website currently supports English and Polish languages.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+Honestly, I don't expect anyone to put this in their bio apart from me and some of my closest friends.
 
-### `pages`
+If, however, for some reason there's need for further translations, please reach out to me and I am sure we will work something out, I'd be more than happy to support more languages, if only just for the sake of supporting more languages. :)
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+# Disclaimer
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+Once again, I did not mean to offend anyone with this project. I barely send it to anyone, I just keep it in my LinkedIn bio and to be quite frank, I think it's working. Or I've just been lucky recently.
 
-### `plugins`
+Also, I am not a web developer, and this was my first experience working with Nuxt and Vue. I am really happy with the results and the project was very fun to work on. My first try was with React and Next.js, but I felt like that solution sub-optimal for my limited knowledge.
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+This was also very heavily inspired by [nohello.net](https://nohello.net), which I keep in my Slack and Microsoft Teams currently. Thanks guys!

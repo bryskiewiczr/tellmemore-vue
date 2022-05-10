@@ -19,7 +19,9 @@
         $t('footer.footer_inspiration_office')
       }}</a
       >. {{ $t('footer.footer_inspiration3')
-      }}<a class="link" href="#">{{ $t('footer.footer_inspiration_github') }}</a
+      }}<a class="link" href="https://github.com/bryskiewiczr/tellmemore-vue">{{
+        $t('footer.footer_inspiration_github')
+      }}</a
       >.
     </p>
     <p>
