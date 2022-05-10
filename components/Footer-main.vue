@@ -42,7 +42,6 @@ footer {
 p {
   text-align: justify;
   font-size: 0.8rem;
-  color: #636363;
 }
 
 .link {

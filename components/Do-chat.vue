@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-card class="chat-window shadow-lg" border-variant="info">
+    <b-card class="chat-window shadow-lg" border-variant="success">
       <!-- Message one  -->
       <b-row>
         <b-col class="col-auto">
@@ -98,7 +98,6 @@
 
 .chat-time {
   font-size: 0.8rem;
-  color: #808080;
 }
 
 .chat-msg {
@@ -106,7 +105,6 @@
 }
 
 .chat-link {
-  color: #1e6ed6;
   text-decoration: underline;
   cursor: pointer;
 }
