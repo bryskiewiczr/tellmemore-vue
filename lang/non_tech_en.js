@@ -7,7 +7,7 @@ export default async (context, locale) => {
       company: 'company',
       resp: 'tasks',
       role: 'role',
-      stack: 'tech stack',
+      stack: 'tools used', // tech stack ->
       renum: 'salary',
       benefits: 'benefits',
       sub1: "Imagine trying to sell someone a car, then immediately asking to see their driver's license and saying that the car is fast and has black tires, but not mentioning the",
@@ -87,9 +87,9 @@ export default async (context, locale) => {
           list1: '❌ send you an updated resume',
           list2: '❌ fill out a survey about my skills and industry knowledge',
           list3:
-            '❌ look at a web developer role despite me being a data engineer',
+            "❌ look at a role that's completely different to what I specialize in",
           list4:
-            "❌ have 5 years of experience with tech that's been out for 2 years",
+            "❌ have 5 years of experience with a tool that's been out for 2 years",
           list5: '❌ stay online while not telling me anything useful (sic!)',
           list_end:
             'without telling me anything specific is not really the most efficient approach.',
@@ -106,7 +106,7 @@ export default async (context, locale) => {
           list2: '🔧 responsibilities for the role',
           list3: '📄 contract type, location and possibility of remote work',
           list4: '💰 renumeration and benefits',
-          list5: '💻 tech stack',
+          list5: '💻 tools used',
           list_end:
             "You might have even went the extra mile and told me something about the company's mission statement and their culture and values.",
           end: "I can't wait to hear what the next step in the process might be! You got me excited! 👏",

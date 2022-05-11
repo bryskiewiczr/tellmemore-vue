@@ -74,6 +74,14 @@ export default {
         code: 'pl',
         file: 'pl.js',
       },
+      {
+        code: 'nt/en',
+        file: 'non_tech_en.js',
+      },
+      {
+        code: 'nt/pl',
+        file: 'non_tech_pl.js',
+      },
     ],
     vueI18n: {
       fallbackLocale: 'en',
