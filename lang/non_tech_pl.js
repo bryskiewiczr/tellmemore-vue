@@ -7,7 +7,7 @@ export default async (context, locale) => {
       company: 'firmie',
       resp: 'zadaniach',
       role: 'roli',
-      stack: 'technologiach',
+      stack: 'narzędziach',
       renum: 'wynagrodzeniu',
       benefits: 'benefitach',
       sub1: 'Wyobraź sobie, że próbujesz sprzedać komuś auto, mówiąc tylko, że jest szybkie i ma czarne opony. Dodatkowo prosisz przy tym o prawo jazdy, nie wspominając nawet o',
@@ -87,9 +87,9 @@ export default async (context, locale) => {
           list2:
             '❌ uzupełnienie ankiety nt. mojego doświadczenia i umiejętności',
           list3:
-            '❌ przejrzenie oferty na web developera, gdy jestem inżynierem danych',
+            '❌ przejrzenie oferty na stanowisko, które nijak ma się do mojej specjalizacji',
           list4:
-            '❌ posiadanie 5 lat doświadczenia w technologii, która jest na rynku od 2 lat',
+            '❌ posiadanie 5 lat doświadczenia w pracy z narzędziem, które jest na rynku od 2 lat',
           list5:
             '❌ pozostanie online podczas gdy nie mówisz mi niczego konkretnego',
           list_end:
@@ -108,7 +108,7 @@ export default async (context, locale) => {
           list2: '🔧 obowiązki związane z rolą na którą rekrutujesz',
           list3: '📄 typ kontraktu, lokalizacja, możliwość pracy zdalnej',
           list4: '💰 wynagrodzenie oraz benefity',
-          list5: '💻 stos technologiczny',
+          list5: '💻 narzędzia potrzebne do pracy',
           list_end:
             'Bardzo możliwe, że dostałem od ciebie nawet informacje na temat wartości, którym kieruje się firma, czy jej misję.',
           end: 'Nie mogę się doczekać, aby usłyszeć o kolejnych krokach w procesie! Dzięki tobie jestem podekscytowany! 👏',

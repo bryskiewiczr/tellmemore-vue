@@ -27,8 +27,11 @@
     <p>
       {{ $t('footer.footer_lang') }}
       <a class="link" href="/">{{ $t('footer.footer_lang_en') }}</a
+      >, <a class="link" href="/pl">{{ $t('footer.footer_lang_pl') }}</a
+      >{{ $t('footer.footer_lang_nontech') }}
+      <a class="link" href="/nt/en">{{ $t('footer.footer_lang_en') }}</a
       >,
-      <a class="link" href="/pl">{{ $t('footer.footer_lang_pl') }}</a>
+      <a class="link" href="/nt/pl">{{ $t('footer.footer_lang_pl') }}</a>
     </p>
   </footer>
 </template>

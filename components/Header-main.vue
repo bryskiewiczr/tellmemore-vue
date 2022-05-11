@@ -52,17 +52,31 @@ export default {
 </script>
 
 <style scoped>
-.header-main {
-  font-size: 3rem;
-  font-weight: 600;
+@media screen {
+  .header-main {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  .header-sub-text {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .header-main {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .header-sub-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
 }
 
 .header-main-typing {
   color: #f5428a;
-}
-
-.header-sub-text {
-  font-size: 2rem;
-  font-weight: 300;
 }
 </style>
