@@ -52,3 +52,6 @@ Once again, I did not mean to offend anyone with this project. I barely send it 
 Also, I am not a web developer, and this was my first experience working with Nuxt and Vue. I am really happy with the results and the project was very fun to work on. My first try was with React and Next.js, but I felt like that solution sub-optimal for my limited knowledge.
 
 This was also very heavily inspired by [nohello.net](https://nohello.net), which I keep in my Slack and Microsoft Teams currently. Thanks guys!
+
+# License
+[MIT](https://choosealicense.com/licenses/mit/)
